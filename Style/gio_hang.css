@@ -1,0 +1,146 @@
+#form_gio_hang {
+    position: relative;
+    overflow: hidden;
+    height: 400px;
+    padding: 20px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  }
+#form_gio_hang_item{
+  display: flex;
+}
+  .left-side {
+    width: 65%;
+    margin-right: 20px;
+  }
+  
+  #gio_hang_data {
+    list-style: none;
+    padding:0;
+    height: 380px;
+    overflow: auto;
+    overflow-x: hidden;
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+  }
+  #gio_hang_data::-webkit-scrollbar {
+    width: 5px; 
+  }
+  
+  #gio_hang_data::-webkit-scrollbar-track {
+    background: #f1f1f1;
+  }
+  
+  #gio_hang_data::-webkit-scrollbar-thumb {
+    background-color: #888;
+  }
+  
+  #gio_hang_data::-webkit-scrollbar-thumb:hover {
+    background-color: #555;
+  }
+  
+  
+  #gio_hang_data li {
+    height: 350px;
+    margin: 5px;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    overflow: hidden;
+    transition: transform 0.3s ease-in-out;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  }
+  
+  #gio_hang_data li:hover {
+    transform: scale(1.05);
+  }
+  
+  #gio_hang_data li img {
+    width: 100%;
+    height: 170px;
+    margin-bottom: 10px;
+  }
+  
+  #gio_hang_data li h3 {
+    margin-bottom: 5px;
+  }
+  
+  #gio_hang_data li p {
+    margin-bottom: 10px;
+  }
+  
+  #gio_hang_data li button {
+    background-color: #2980b9;
+    color: #fff;
+    border: none;
+    padding: 8px 16px;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease-in-out;
+  }
+  
+  #gio_hang_data li button:hover {
+    background-color: #1c638e;
+  }
+  
+  .right-side {
+    width: 35%;
+    height: 100%;
+    padding: 20px 20px 20px 40px;
+    background-color: #f5f5f5;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    text-align: center;
+  }
+  
+  .right-side .handl_gio_hang {
+    width: 100%;
+    height: 100%;
+    margin-top: 20px;
+  }
+  .text_align{
+    text-align: center;
+    width: 100%;
+  }
+  .right-side .handl_gio_hang button {
+    background-color: #2980b9;
+    color: #fff;
+    border: none;
+    padding: 8px 16px;
+    border-radius: 5px;
+    cursor: pointer;
+    margin-bottom: 10px;
+    transition: background-color 0.3s ease-in-out;
+  }
+  
+  .right-side .handl_gio_hang button:hover {
+    background-color: #1c638e;
+  }
+  
+  .right-side .handl_gio_hang label {
+    margin-bottom: 5px;
+  }
+  
+  .right-side .handl_gio_hang input[type="text"] {
+    padding: 8px;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+    width: 150px;
+  }
+  .right-side .handl_gio_hang input:focus{
+    outline:none;
+    box-shadow: 0 0 5px blue;
+  }
+#total_gio_hang{
+  text-align: center;
+  border: 1px solid;
+  height: 40px;
+  width: 40%;
+  margin-left: 30%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 5px;
+}
+#thanh_toan{
+  display: none;
+}

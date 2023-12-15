@@ -1,0 +1,191 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+    background-color: #fff;
+    scroll-behavior: smooth;
+}
+
+a {
+    text-decoration: none;
+    color: black;
+}
+
+.app {
+    overflow: hidden;
+}
+
+.nav__bars {
+    height: 100px;
+    align-items: center;
+}
+
+.name__shop {
+    text-align: center;
+}
+
+.search-bar input {
+    width: 100%;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 3px;
+}
+.search-bar input:focus {
+    outline: none;
+    box-shadow: 0 0 5px blue;
+}
+#search_btn {
+    width: 100%;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 3px;
+    cursor: pointer;
+}
+
+.nav__bars-right {
+    align-items: center;
+}
+#name_tai_khoan_dang_nhap {
+    width: 100%;
+    overflow: hidden;
+    white-space: nowrap;
+    text-overflow: ellipsis;
+}
+#dang_xuat svg {
+    width: 35px;
+    cursor: pointer;
+}
+.thon-bao {
+    align-items: center;
+}
+.thong-bao svg {
+    width: 35px;
+    cursor: pointer;
+    margin-top: 10px;
+}
+.tin_nhan_gop_y {
+    position: fixed;
+    top: 100px;
+    right: 10.7vw;
+    bottom: 0;
+    width: 320px;
+    background-color: rgb(255, 255, 255);
+    box-shadow: 0 0 10px ;
+    overflow-y: auto;
+    transform: translateX(150%);
+    opacity: 0;
+    transition: all linear 0.3s;
+    z-index: 10;
+}
+.check__bell-class:checked ~ .tin_nhan_gop_y {
+    transform: translateX(0);
+    opacity: 1;
+}
+.mute__all {
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-color: hsl(0, 0%, 0%,0.2);
+    display: none;
+}
+.check__bell-class:checked ~ .mute__all {
+    display: block;
+}
+#tin_nhan_data {
+   width: 320px;
+   padding: 0;
+}
+#tin_nhan_data h2 {
+    text-align: center;
+}
+#tin_nhan_data li {
+    width: 100%;
+    background-color: hsl(240, 100%, 50%,0.2);
+    list-style: none;
+}
+#tin_nhan_data li h3 {
+    color: red;
+    width: 100%;
+    padding: 0 5px;
+    margin: 0;
+    overflow: hidden;
+    white-space: nowrap;
+    text-overflow: ellipsis;
+}
+#tin_nhan_data li p {
+    margin-top: -10px;
+    width: 320px;
+    height: 110px;
+    padding: 15px;
+    overflow: hidden;
+}
+
+.tablet__menu-icon {
+    margin: 20px 0 0 100%;
+}
+.tablet__menu-icon svg {
+    margin-left: 40%;
+    width: 30px;
+}
+.tablet__menu-items {
+    position: fixed;
+    top: 100px;
+    right: 180px;
+    bottom: 300px;
+    width: 650px;
+    background-color: rgb(239, 13, 13);
+    color: #000000;
+    transform: translateX(-100%);
+    opacity: 0;
+    transition: all linear 0.3s;
+}
+.check__menu-tablet--class:checked ~ .tablet__menu-items {
+    transform: translateX(0);
+    opacity: 1;
+}
+.tablet__menu-items ul {
+    list-style: none;
+    width: 500px;
+    height: 100%;
+    margin: 0 auto;
+    text-align: center;
+}
+.tablet__menu-items ul h3{
+    font-size: 1.4em;
+    margin-top: -70px;
+}
+.tablet__menu-items li {
+    width: 100%;
+    height: 50px;
+    cursor: pointer;
+}
+.tablet__menu-items--exit svg {
+    width: 30px;
+    margin: 30px;
+}
+/* <tablet */
+@media (max-width: 1023px){
+    .tablet__none {
+        display: none;
+    }
+    .tablet__block {
+        display: block;
+    }
+}
+@media (max-width: 732px) {
+    .check__menu-tablet--class:checked ~ .tablet__menu-items {
+        transform: translateX(40%);
+        opacity: 1;
+    }
+    .left-side {
+        width: 100%;
+      }
+      #gio_hang_data {
+        width: 100%;
+      }
+}

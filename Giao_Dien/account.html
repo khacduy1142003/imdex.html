@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../Style/Grid_system.css">
+    <link rel="stylesheet" href="../Style/index.css">
+    <link rel="stylesheet" href="../Style/users.css">
+    <link rel="stylesheet" href="../Style/gio_hang.css">
+    <title id="name_website"></title>
+</head>
+<body>
+    <div id="app" class="">
+        <nav>
+          <section>QUÁN ĐỒ ĂN NHANH KONOHA</section>
+          <ul class="search-bar">
+            <input type="text" name="search_text" placeholder="Nhập để tìm kiếm sản phẩm">
+            <button id="search_btn">Tìm Kiếm</button>
+          </ul>
+          <ul class="navigation">
+            <li id="name_tai_khoan_dang_nhap" class=""></li>
+            <li id="dang_xuat" class="">ĐĂNG XUẤT</li>
+            <li id="thong_bao">THÔNG BÁO
+              <div class="tin_nhan_gop_y">
+                <ul id="tin_nhan_data"></ul>
+              </div>
+            </li>
+          </ul>
+        </nav>
+        <main class="">
+          <div id="form_gio_hang">
+            <div id="form_gio_hang_item">
+              <div class="left-side">
+                <ul id="gio_hang_data"></ul>
+              </div>
+              <div class="right-side">
+                <div class="handl_gio_hang">
+                  <button id="tong_tien_button">Tổng tiền chưa thanh toán:</button>
+                  <button type="number" id="total_gio_hang"></button>
+                  <label for="tien_tra">Tiền trả:</label>
+                  <input type="number" id="tien_tra" name="tien_tra">
+                  <button id="tinh_tien">Thanh Toán</button>
+                  <h3 id="chua_thanh_toan"></h3>
+                  <h3 id="da_thanh_toan"></h3>
+                </div>
+              </div>
+            </div>
+          </div>
+            <div id="tim_kiem" class="hide">
+                <h2>SẢN PHẨM BẠN VỪA TÌM KIẾM</h2>
+                <button id="exit_tim_kiem" class="exit">X</button>
+                <ul class="product_items" id="data_tim_kiem"></ul>
+                <div class="hien_thi_them hien_thi_them-tim-kiem"> HIỆN THỊ THÊM SẢN PHẨM</div>
+            </div>
+            <div id="uu_dai" class="s">
+                <h2>ƯU ĐÃI</h2>
+                <ul class="product_items" id="data_uu_dai"></ul>
+                <div class="hien_thi_them hien_thi_them-uu-dai">HIỆN THỊ THÊM SẢN PHẨM</div>
+            </div>
+            <div id="mon_moi" class="s">
+                <h2>MÓN MỚI</h2>
+                <ul class="product_items" id="data_mon_moi"></ul>
+                  <div class="hien_thi_them hien_thi_them-mon-moi">HIỆN THỊ THÊM SẢN PHẨM</div>
+            </div>
+            <div id="trang_mieng" class="s">
+                <h2>MÓN TRANG MIỆNG</h2>
+                <ul class="product_items" id="data_trang_mieng"></ul>
+                  <div class="hien_thi_them hien_thi_them-trang-mieng">HIỆN THỊ THÊM SẢN PHẨM</div>
+            </div>
+        </main>
+        <footer>
+            <div id="gop_y">
+              <ul id="gop_y_data">
+                <li class="gop_y-li">
+                    <div class="ten_dang_nhap_gop_y"></div>
+                    <label for="name_gop_y">Họ và tên của bạn:</label>
+                    <input type="text" id="name_gop_y" name="name_gop_y"> <br>
+                    <label for="noi_dung_gop_y">Nội dung bạn muốn góp ý:</label>
+                    <input type="text" id="noi_dung_gop_y" name="noi_dung_gop_y">
+                    <div class="them_xoa">
+                      <button id="gop_y-gui-btn" type="button" class="">Gửi</button>          
+                    </div>
+                </li>
+              </ul>
+            </div>
+            <div id="end">
+              <h2>CÔNG TY LIÊN DOANH TNHH KFC VIỆT NAM</h2>
+              <h3>Số 292 Bà Triệu, P. Lê Đại Hành, Q. Hai Bà Trưng, TP. Hà Nội.</h3>
+              <h3>Điện thoại: (028) 38489828</h3>
+              <h3>Email: lienhe@kfcvietnam.com.vn</h3>
+              <h3>Mã số thuế: 0100773885</h3>
+              <h3>Ngày cấp: 29/10/1998 - Nơi cấp: Cục Thuế Thành Phố Hà Nộ</h3>
+            </div>
+          </footer>
+    </div>
+    <script src="../Javascript/account.js"></script>
+    <script>
+      // Lấy tên người dùng và mật khẩu từ localStorage
+      var storedUsername = localStorage.getItem('user_name');
+      var storedPassword = localStorage.getItem('user_password');
+
+      // Đặt tiêu đề của trang web bằng tên
+      var name_website = document.querySelector('#name_website');
+      var name_tai_khoan_dang_nhap = document.querySelector('#name_tai_khoan_dang_nhap');
+      name_website.innerHTML ='Chào mừng ' + storedUsername +' đến với giỏ hàng!';
+      name_tai_khoan_dang_nhap.innerHTML = storedUsername;
+  </script>
+</body>
+</html>

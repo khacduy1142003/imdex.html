@@ -1,0 +1,277 @@
+#form_dang_nhap {
+    position: absolute;
+      top: 20%;
+      left: 30%;
+      width: 500px;
+      height: 325px;
+      margin: 0 auto;
+      padding: 10px;
+      background-color: #f2f2f2;
+      border-radius: 5px;
+      box-shadow: 0 0 5px;
+      text-align: center;
+    }
+    #form_dang_nhap label {
+      display: block;
+      margin-bottom: 10px;
+      font-weight: bold;
+      text-align: left;
+    }
+    #form_dang_nhap input[type="text"],
+    #form_dang_nhap input[type="password"] {
+      width: 95%;
+      padding: 8px;
+      border: 1px solid #ccc;
+      border-radius: 3px;
+      margin-bottom: 10px;
+    }
+    #form_dang_nhap input:focus{
+      outline: none;
+      box-shadow: 0 0 5px blue;
+    }
+    #users_dang_nhap {
+      margin: 20px 0;
+      background-color: #4caf50;
+      color: white;
+      border: none;
+      padding: 10px 20px;
+      border-radius: 3px;
+      cursor: pointer;
+    }
+    
+    #users_dang_nhap:hover {
+      background-color: #45a049;
+    }
+    
+    #dk {
+      background-color: #008CBA;
+      color: white;
+      border: none;
+      padding: 5px 10px;
+      border-radius: 3px;
+      cursor: pointer;
+    }
+    
+    #dk:hover {
+      background-color: #006080;
+    }
+  
+  
+    /* đắng ký */
+    #form_dang_ky {
+      position: absolute;
+      top: 20%;
+      left: 30%;
+      width: 500px;
+      height: 370px;
+      margin: 0 auto;
+      padding: 10px;
+      background-color: #f2f2f2;
+      border-radius: 5px;
+      box-shadow: 0 0 5px;
+      text-align: center;
+    }
+    
+    #form_dang_ky h1 {
+      text-align: center;
+      margin-bottom: 20px;
+    }
+    
+    #form_dang_ky label {
+      display: block;
+      margin-bottom: 10px;
+      font-weight: bold;
+      text-align: left;
+    }
+    
+    #form_dang_ky input[type="text"],
+    #form_dang_ky input[type="password"],
+    #form_dang_ky input[type="email"],
+    #form_dang_ky input[type="date"] {
+      width: 95%;
+      padding: 10px;
+      border: 1px solid #ccc;
+      border-radius: 3px;
+      margin-bottom: 10px;
+    }
+    #form_dang_ky input:focus,
+    #form_dang_ky select:focus{
+      outline: none;
+      box-shadow: 0 0 5px blue;
+    }
+    #form_dang_ky select {
+      width: 100%;
+      padding: 8px;
+      border: 1px solid #ccc;
+      border-radius: 3px;
+      margin-bottom: 10px;
+    }
+    #users_dang_ky {
+      background-color: #4caf50;
+      color: white;
+      border: none;
+      padding: 10px 20px;
+      border-radius: 3px;
+      cursor: pointer;
+    }
+    
+    #users_dang_ky:hover {
+      background-color: #45a049;
+    }
+    
+    #dn {
+      background-color: #008CBA;
+      color: white;
+      border: none;
+      padding: 5px 10px;
+      border-radius: 3px;
+      cursor: pointer;
+    }
+    
+    #dn:hover {
+      background-color: #006080;
+    }
+  
+    #dong_dang_nhap {
+      background-color: #ff5f5f;
+      color: white;
+      border: none;
+      padding: 10px 20px;
+      border-radius: 3px;
+      cursor: pointer;
+      transition: background-color 0.3s ease;
+    }
+    
+    #dong_dang_nhap:hover {
+      background-color: #ff3f3f;
+    }
+  
+    /*  phần khi đăng nhập thành công */
+  #name_tai_khoan_dang_nhap{
+    color: red;
+  }
+  
+  
+  /*  phần tin nahwns góp ý */
+  #thong_bao {
+    position: relative;
+  }
+  .a{
+    cursor: pointer;
+    padding: 5px;
+    margin-left: 40%;
+  }
+  .tin_nhan_gop_y {
+    display:none ; 
+    position: absolute;
+    top: 100%;
+    right: 50px;
+    max-height: 500px;
+    min-width: 300px;
+    max-width: 300px;
+    overflow-y: scroll;
+    overflow-x: hidden;
+    scroll-behavior: smooth; 
+    scroll-snap-type: y mandatory;
+    scroll-padding: 50px; 
+    width: 100%;
+    background-color: rgb(51, 44, 44);
+    z-index: 5;
+    border-radius: 5px;
+  }
+  .tin_nhan_gop_y::-webkit-scrollbar {
+    width: 5px; 
+  }
+  
+  .tin_nhan_gop_y::-webkit-scrollbar-track {
+    background: #f1f1f1;
+  }
+  
+  .tin_nhan_gop_y::-webkit-scrollbar-thumb {
+    background-color: #888;
+  }
+  
+  .tin_nhan_gop_y::-webkit-scrollbar-thumb:hover {
+    background-color: #555;
+  }
+  #thong_bao:hover .tin_nhan_gop_y {
+    display: block;
+    opacity: 1;
+  }
+  
+  .tin_nhan_gop_y ul {
+    padding: 0;
+    margin: 0;
+    list-style-type: none;
+  }
+  
+  .tin_nhan_gop_y li {
+   width: 100%;
+   border-bottom: 1px solid red;
+   padding: 10px;
+  }
+  .tin_nhan_gop_y li:hover{
+    background-color: rgb(107, 88, 88);
+  }
+  
+
+ /* phan admin */
+#tai_khoan {
+  position: relative;
+  overflow: hidden;
+  height: 700px;
+  padding: 20px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+#data_tai_khoan {
+  list-style: none;
+  padding:0;
+  height: 580px;
+  overflow: auto;
+  overflow-x: hidden;
+  display: grid;
+  grid-template-columns: repeat(5,1fr);
+}
+#data_tai_khoan::-webkit-scrollbar {
+  width: 5px; 
+}
+
+#data_tai_khoan::-webkit-scrollbar-track {
+  background: #f1f1f1;
+}
+
+#data_tai_khoan::-webkit-scrollbar-thumb {
+  background-color: #888;
+}
+
+#data_tai_khoan::-webkit-scrollbar-thumb:hover {
+  background-color: #555;
+}
+#data_tai_khoan li {
+  height: 250px;
+  margin: 5px;
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  overflow: hidden;
+  transition: transform 0.3s ease-in-out;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  text-align: center;
+}
+
+#data_tai_khoan li:hover {
+  transform: scale(1.05);
+}
+#data_tai_khoan li button {
+  background-color: #2980b9;
+  color: #fff;
+  border: none;
+  padding: 8px 16px;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.3s ease-in-out;
+}
+
+#data_tai_khoan li button:hover {
+  background-color: #1c638e;
+}

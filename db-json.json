@@ -1,0 +1,389 @@
+{
+  "product_uu_dai": [
+    {
+      "id": 1,
+      "image": "../Image/image_1.png",
+      "name": "Bánh mì tròn với dâu tây",
+      "price": 100000,
+      "chi_tiet": "Bánh mì tròn ngọt với dâu tây, phô mai kem và đường bột với nước sốt tùy chọn"
+    },
+    {
+      "image": "../Image/image_2.png",
+      "name": "Bánh mì tròn với phô mai",
+      "price": 100000,
+      "chi_tiet": "Bánh mì tròn làm từ bột mềm với sốt tỏi và phô mai mozzarella. Ăn kèm với nước sốt bạn chọn",
+      "id": 2
+    },
+    {
+      "image": "../Image/image_3.png",
+      "name": "Bánh mì tròn với xúc xích",
+      "price": 100000,
+      "chi_tiet": "Bánh mì tròn làm từ bột mềm, sốt tỏi, xúc xích Alpine và phô mai mozzarella. Ăn kèm với nước sốt bạn chọn",
+      "id": 3
+    },
+    {
+      "image": "../Image/image_4.png",
+      "name": "Johner với tôm BBQ",
+      "price": 110000,
+      "chi_tiet": "Cuốn với phô mai Mozzarella, tôm, dứa, ớt ngọt và sốt thịt nướng",
+      "id": 4
+    },
+    {
+      "image": "../Image/image_5.png",
+      "name": "Johner Gà 1000",
+      "price": 110000,
+      "chi_tiet": "Cuốn phi lê gà, cà chua, hành tây, dưa chua và sốt 1000 island, phô mai Mozzarella",
+      "id": 5
+    },
+    {
+      "image": "../Image/image_7.png",
+      "name": "Papadias Rau bina và phô mai",
+      "price": 110000,
+      "chi_tiet": "Bánh sandwich giòn với rau bina, cà chua, phô mai kem và phô mai Mozzarella",
+      "id": 7
+    },
+    {
+      "image": "../Image/image_8.png",
+      "name": "Papadias Ham và nấm",
+      "price": 110000,
+      "chi_tiet": "Bánh sandwich giòn với giăm bông, nấm, phô mai Mozzarella và sốt Rancha",
+      "id": 8
+    },
+    {
+      "image": "img",
+      "name": "name",
+      "price": "100",
+      "chi_tiet": "mo ta",
+      "id": 10
+    },
+    {
+      "image": "a",
+      "name": "a",
+      "price": "a",
+      "chi_tiet": "a",
+      "id": 11
+    },
+    {
+      "image": "11111",
+      "name": "ban trung",
+      "price": "100",
+      "chi_tiet": "11111",
+      "id": 12
+    }
+  ],
+  "product_mon_moi": [
+    {
+      "id": 1,
+      "image": "../Image/image_9.png",
+      "name": "Bún tự làm với thịt gà",
+      "price": 130000,
+      "chi_tiet": "Nước dùng gà, ức gà, mì, cà rốt và rau xanh"
+    },
+    {
+      "image": "../Image/image_11.png",
+      "name": "Solyanka",
+      "price": 130000,
+      "chi_tiet": "Solyanka thịt bò và xúc xích tự làm với khoai tây, hành tây, dưa chua, ô liu và chanh",
+      "id": 3
+    },
+    {
+      "image": "../Image/image_12.png",
+      "name": "Pasta gà trang trại",
+      "price": 130000,
+      "chi_tiet": "Phi lê gà ngon ngọt sốt kem có mùi tỏi cay, cà chua, ớt ngọt và phô mai Mozzarella",
+      "id": 4
+    },
+    {
+      "image": "../Image/image_13.png",
+      "name": "Pasta BBQ với xúc xích",
+      "price": 130000,
+      "chi_tiet": "Sự kết hợp tươi sáng của xúc xích Alpine, thịt xông khói thơm, hành tây, sốt BBQ cùng phô mai Mozzarella và dưa chuột muối",
+      "id": 5
+    },
+    {
+      "image": "../Image/image_14.png",
+      "name": "Mì phô mai xanh",
+      "price": 130000,
+      "chi_tiet": "Phô mai xanh thơm ngon với sốt cà chua đặc trưng dưới lớp vỏ phô mai giòn",
+      "id": 6
+    },
+    {
+      "image": "../Image/image_15.png",
+      "name": "Khoai tây với giăm bông và nấm",
+      "price": 130000,
+      "chi_tiet": "Khoai tây nướng với giăm bông, nấm, phô mai Mozzarella và sốt tỏi Ranch",
+      "id": 7
+    },
+    {
+      "image": "../Image/image_16.png",
+      "name": "Khoai tây với thịt xông khói và ớt jalapenos",
+      "price": 130000,
+      "chi_tiet": "Khoai tây nướng với thịt xông khói, phô mai Mozzarella, sốt cà chua đặc trưng và ớt Jalapeno cay",
+      "id": 8
+    }
+  ],
+  "product_trang_mieng": [
+    {
+      "id": 1,
+      "image": "../Image/image_17.png",
+      "name": "Cuộn Oreo",
+      "price": 59000,
+      "chi_tiet": "Bánh cuộn với bánh quy Oreo, phô mai kem và kem đường tinh tế"
+    },
+    {
+      "image": "../Image/image_18.png",
+      "name": "Syrniki",
+      "price": 59000,
+      "chi_tiet": "Bánh phô mai mềm từ lò nướng với nước sốt bạn chọn",
+      "id": 2
+    },
+    {
+      "image": "../Image/image_19.png",
+      "name": "Bánh phô mai 'New York'",
+      "price": 59000,
+      "chi_tiet": "Bánh phô mai kem phô mai cổ điển có bổ sung vani tự nhiên.",
+      "id": 3
+    },
+    {
+      "image": "../Image/image_20.png",
+      "name": "Bột đường Chocolate",
+      "price": 59000,
+      "chi_tiet": "Bánh xốp sô cô la tinh tế với nhân lỏng.",
+      "id": 4
+    },
+    {
+      "image": "../Image/image_21.png",
+      "name": "Berry Shu",
+      "price": 59000,
+      "chi_tiet": "Bánh sữa trứng thoáng mát với nhân kem berry tinh tế.",
+      "id": 5
+    },
+    {
+      "image": "../Image/image_22.png",
+      "name": "Kem Magnat Xoài và quả mọng đỏ",
+      "price": 29000,
+      "chi_tiet": "Kem que kem xoài, với một lớp kem trái cây đỏ nhân sô cô la trắng và hạnh nhân.",
+      "id": 6
+    },
+    {
+      "image": "../Image/image_23.png",
+      "name": "Kem Tycoon Sôcôla truffle",
+      "price": 29000,
+      "chi_tiet": "Kem sô cô la với miếng bánh hạnh nhân và sốt sô cô la, phủ sô cô la sữa sang trọng.",
+      "id": 7
+    },
+    {
+      "image": "../Image/image_24.png",
+      "name": "Kem Magnat với hồ trăn",
+      "price": 29000,
+      "chi_tiet": "Nón hồ trăn với đĩa sô cô la sữa 100%, miếng hạt hồ trăn, kem hồ trăn kem trong bánh xốp giòn.",
+      "id": 7
+    }
+  ],
+  "users": [
+    {
+      "id": 1,
+      "name": "admin",
+      "mat_khau": "admin",
+      "email": "duy@gmail.com",
+      "chuc_vu": "quan ly"
+    },
+    {
+      "name": "duy",
+      "mat_khau": "duy",
+      "email": "duy@gmail.com",
+      "chuc_vu": 0,
+      "id": 2
+    },
+    {
+      "name": "nguoi dung",
+      "mat_khau": "nguoidung",
+      "email": "nguoidung@gmail.com",
+      "chuc_vu": 0,
+      "id": 3
+    },
+    {
+      "name": "a",
+      "mat_khau": "a",
+      "email": "duy21072006011@vnkgu.edu.vn",
+      "chuc_vu": 0,
+      "id": 4
+    },
+    {
+      "name": "c",
+      "mat_khau": "c",
+      "email": "duy@gmail.com",
+      "chuc_vu": 0,
+      "id": 5
+    },
+    {
+      "name": "d",
+      "mat_khau": "d",
+      "email": "duy21072006011@vnkgu.edu.vn",
+      "chuc_vu": 0,
+      "id": 6
+    }
+  ],
+  "gop_y": [
+    {
+      "ten_tai_khoan": "duy",
+      "ten_gop_y": "Nguyễn Khắc Duy",
+      "noi_dung": "Đơn hàng giao chậm hơn so với dự kiến của cửa hàng.",
+      "id": 1
+    },
+    {
+      "ten_tai_khoan": "admin",
+      "ten_gop_y": "a",
+      "noi_dung": "a",
+      "id": 2
+    },
+    {
+      "ten_tai_khoan": "a",
+      "ten_gop_y": "b",
+      "noi_dung": "b",
+      "id": 3
+    },
+    {
+      "ten_tai_khoan": "c",
+      "ten_gop_y": "c",
+      "noi_dung": "c",
+      "id": 4
+    },
+    {
+      "ten_tai_khoan": "d",
+      "ten_gop_y": "d",
+      "noi_dung": "d",
+      "id": 5
+    }
+  ],
+  "gio_hang": [
+    {
+      "ten_tai_khoan": "duy",
+      "image": "../Image/image_1.png",
+      "name": "Bánh mì tròn với dâu tây",
+      "price": "100000",
+      "chi_tiet": "Bánh mì tròn ngọt với dâu tây, phô mai kem và đường bột với nước sốt tùy chọn",
+      "id": 2
+    },
+    {
+      "ten_tai_khoan": "duy",
+      "image": "../Image/image_4.png",
+      "name": "Johner với tôm BBQ",
+      "price": "110000",
+      "chi_tiet": "Cuốn với phô mai Mozzarella, tôm, dứa, ớt ngọt và sốt thịt nướng",
+      "id": 4
+    },
+    {
+      "ten_tai_khoan": "duy",
+      "image": "../Image/image_9.png",
+      "name": "Bún tự làm với thịt gà",
+      "price": "130000",
+      "chi_tiet": "Nước dùng gà, ức gà, mì, cà rốt và rau xanh",
+      "id": 5
+    },
+    {
+      "ten_tai_khoan": "duy",
+      "image": "../Image/image_20.png",
+      "name": "Bột đường Chocolate",
+      "price": "59000",
+      "chi_tiet": "Bánh xốp sô cô la tinh tế với nhân lỏng.",
+      "id": 6
+    },
+    {
+      "ten_tai_khoan": "duy",
+      "image": "../Image/image_24.png",
+      "name": "Kem Magnat với hồ trăn",
+      "price": "29000",
+      "chi_tiet": "Nón hồ trăn với đĩa sô cô la sữa 100%, miếng hạt hồ trăn, kem hồ trăn kem trong bánh xốp giòn.",
+      "id": 7
+    },
+    {
+      "ten_tai_khoan": "duy",
+      "image": "../Image/image_15.png",
+      "name": "Khoai tây với giăm bông và nấm",
+      "price": "130000",
+      "chi_tiet": "Khoai tây nướng với giăm bông, nấm, phô mai Mozzarella và sốt tỏi Ranch",
+      "id": 9
+    },
+    {
+      "ten_tai_khoan": "a",
+      "image": "../Image/image_3.png",
+      "name": "Bánh mì tròn với xúc xích",
+      "price": "100000",
+      "chi_tiet": "Bánh mì tròn làm từ bột mềm, sốt tỏi, xúc xích Alpine và phô mai mozzarella. Ăn kèm với nước sốt bạn chọn",
+      "id": 10
+    },
+    {
+      "ten_tai_khoan": "a",
+      "image": "../Image/image_15.png",
+      "name": "Khoai tây với giăm bông và nấm",
+      "price": "130000",
+      "chi_tiet": "Khoai tây nướng với giăm bông, nấm, phô mai Mozzarella và sốt tỏi Ranch",
+      "id": 11
+    },
+    {
+      "ten_tai_khoan": "a",
+      "image": "../Image/image_22.png",
+      "name": "Kem Magnat Xoài và quả mọng đỏ",
+      "price": "29000",
+      "chi_tiet": "Kem que kem xoài, với một lớp kem trái cây đỏ nhân sô cô la trắng và hạnh nhân.",
+      "id": 12
+    },
+    {
+      "ten_tai_khoan": "a",
+      "image": "../Image/image_22.png",
+      "name": "Kem Magnat Xoài và quả mọng đỏ",
+      "price": "29000",
+      "chi_tiet": "Kem que kem xoài, với một lớp kem trái cây đỏ nhân sô cô la trắng và hạnh nhân.",
+      "id": 13
+    },
+    {
+      "ten_tai_khoan": "duy",
+      "image": "../Image/image_2.png",
+      "name": "Bánh mì tròn với phô mai",
+      "price": "100000",
+      "chi_tiet": "Bánh mì tròn làm từ bột mềm với sốt tỏi và phô mai mozzarella. Ăn kèm với nước sốt bạn chọn",
+      "id": 14
+    },
+    {
+      "ten_tai_khoan": "nguoi dung",
+      "image": "../Image/image_2.png",
+      "name": "Bánh mì tròn với phô mai",
+      "price": "100000",
+      "chi_tiet": "Bánh mì tròn làm từ bột mềm với sốt tỏi và phô mai mozzarella. Ăn kèm với nước sốt bạn chọn",
+      "id": 16
+    },
+    {
+      "ten_tai_khoan": "nguoi dung",
+      "image": "../Image/image_2.png",
+      "name": "Bánh mì tròn với phô mai",
+      "price": "100000",
+      "chi_tiet": "Bánh mì tròn làm từ bột mềm với sốt tỏi và phô mai mozzarella. Ăn kèm với nước sốt bạn chọn",
+      "id": 18
+    },
+    {
+      "ten_tai_khoan": "nguoi dung",
+      "image": "../Image/image_13.png",
+      "name": "Pasta BBQ với xúc xích",
+      "price": "130000",
+      "chi_tiet": "Sự kết hợp tươi sáng của xúc xích Alpine, thịt xông khói thơm, hành tây, sốt BBQ cùng phô mai Mozzarella và dưa chuột muối",
+      "id": 19
+    },
+    {
+      "ten_tai_khoan": "duy",
+      "image": "../Image/image_8.png",
+      "name": "Papadias Ham và nấm",
+      "price": "110000",
+      "chi_tiet": "Bánh sandwich giòn với giăm bông, nấm, phô mai Mozzarella và sốt Rancha",
+      "id": 20
+    },
+    {
+      "ten_tai_khoan": "duy",
+      "image": "../Image/image_7.png",
+      "name": "Papadias Rau bina và phô mai",
+      "price": "110000",
+      "chi_tiet": "Bánh sandwich giòn với rau bina, cà chua, phô mai kem và phô mai Mozzarella",
+      "id": 21
+    }
+  ]
+}

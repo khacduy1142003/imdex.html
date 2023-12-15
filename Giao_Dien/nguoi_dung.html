@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../Style/index.css">
+    <link rel="stylesheet" href="../Style/users.css">
+    <link rel="stylesheet" href="../Style/gio_hang.css">
+    <title>Shop konoha</title>
+</head>
+<body>
+    <div id="app" class="">
+        <nav>
+          <section>QUÁN ĐỒ ĂN NHANH KONOHA</section>
+          <ul class="search-bar">
+            <input type="text" name="search_text" placeholder="Nhập để tìm kiếm sản phẩm">
+            <button id="search_btn">Tìm Kiếm</button>
+          </ul>
+          <ul class="navigation">
+            <li id="dang_nhap" class="">ĐĂNG NHẬP</li>
+            <li id="name_tai_khoan_dang_nhap" class="open_btn"></li>
+            <li id="gio_hang">GIỎ HÀNG</li>
+            <li id="thong_bao">THÔNG BÁO
+              <div class="tin_nhan_gop_y">
+                <ul id="tin_nhan_data"></ul>
+              </div>
+            </li>
+          </ul>
+        </nav>
+        <main class="">
+            <div id="tim_kiem" class="hide">
+                <h2>SẢN PHẨM BẠN VỪA TÌM KIẾM</h2>
+                <button id="exit_tim_kiem" class="exit">X</button>
+                <ul class="product_items" id="data_tim_kiem"></ul>
+                <div class="hien_thi_them hien_thi_them-tim-kiem"> HIỆN THỊ THÊM SẢN PHẨM</div>
+            </div>
+            <div id="uu_dai" class="">
+                <h2>ƯU ĐÃI</h2>
+                <ul class="product_items" id="data_uu_dai"></ul>
+                <div class="hien_thi_them hien_thi_them-uu-dai">HIỆN THỊ THÊM SẢN PHẨM</div>
+            </div>
+            <div id="mon_moi" class="">
+                <h2>MÓN MỚI</h2>
+                <ul class="product_items" id="data_mon_moi"></ul>
+                  <div class="hien_thi_them hien_thi_them-mon-moi">HIỆN THỊ THÊM SẢN PHẨM</div>
+            </div>
+            <div id="trang_mieng" class="">
+                <h2>MÓN TRANG MIỆNG</h2>
+                <ul class="product_items" id="data_trang_mieng"></ul>
+                  <div class="hien_thi_them hien_thi_them-trang-mieng">HIỆN THỊ THÊM SẢN PHẨM</div>
+            </div>
+        </main>
+        <footer>
+            <div id="gop_y">
+              <ul id="gop_y_data">
+                <li class="gop_y-li">
+                    <div class="ten_dang_nhap_gop_y"></div>
+                    <label for="name_gop_y">Họ và tên của bạn:</label>
+                    <input type="text" id="name_gop_y" name="name_gop_y"> <br>
+                    <label for="noi_dung_gop_y">Nội dung bạn muốn góp ý:</label>
+                    <input type="text" id="noi_dung_gop_y" name="noi_dung_gop_y">
+                    <div class="them_xoa">
+                      <button id="gop_y-gui-btn" type="button" class="open_btn">Gửi</button>          
+                    </div>
+                </li>
+              </ul>
+            </div>
+            <div id="end">
+              <h2>CÔNG TY LIÊN DOANH TNHH KFC VIỆT NAM</h2>
+              <h3>Số 292 Bà Triệu, P. Lê Đại Hành, Q. Hai Bà Trưng, TP. Hà Nội.</h3>
+              <h3>Điện thoại: (028) 38489828</h3>
+              <h3>Email: lienhe@kfcvietnam.com.vn</h3>
+              <h3>Mã số thuế: 0100773885</h3>
+              <h3>Ngày cấp: 29/10/1998 - Nơi cấp: Cục Thuế Thành Phố Hà Nộ</h3>
+            </div>
+          </footer>
+    </div>
+    <script src="../Javascript/index.js"></script>
+</body>
+</html>

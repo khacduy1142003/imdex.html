@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../Style/index.css">
+    <link rel="stylesheet" href="../Style/users.css">
+    <title>Ban do an </title>
+</head>
+<body>
+    <div id="app" class="">
+        <nav>
+          <section>QUÁN ĐỒ ĂN NHANH KONOHA</section>
+          <ul class="search-bar">
+            <input type="text" name="search_text" placeholder="Nhập để tìm kiếm sản phẩm">
+            <button id="search_btn">Tìm Kiếm</button>
+          </ul>
+          <ul class="navigation">
+            <li id="dang_nhap" class="">ĐĂNG NHẬP</li>
+            <li id="name_tai_khoan_dang_nhap" class="open_btn"></li>
+          </ul>
+        </nav>
+        <main class="">
+            <div id="tim_kiem" class="hide">
+                <h2>SẢN PHẨM BẠN VỪA TÌM KIẾM</h2>
+                <button id="exit_tim_kiem" class="exit">X</button>
+                <ul class="product_items" id="data_tim_kiem"></ul>
+                <div class="hien_thi_them hien_thi_them-tim-kiem"> HIỆN THỊ THÊM SẢN PHẨM</div>
+            </div>
+            <div id="uu_dai" class="">
+                <h2>ƯU ĐÃI</h2>
+                <ul class="product_items" id="data_uu_dai"></ul>
+                <div class="hien_thi_them hien_thi_them-uu-dai">HIỆN THỊ THÊM SẢN PHẨM</div>
+            </div>
+            <div id="mon_moi" class="">
+                <h2>MÓN MỚI</h2>
+                <ul class="product_items" id="data_mon_moi"></ul>
+                  <div class="hien_thi_them hien_thi_them-mon-moi">HIỆN THỊ THÊM SẢN PHẨM</div>
+            </div>
+            <div id="trang_mieng" class="">
+                <h2>MÓN TRANG MIỆNG</h2>
+                <ul class="product_items" id="data_trang_mieng"></ul>
+                  <div class="hien_thi_them hien_thi_them-trang-mieng">HIỆN THỊ THÊM SẢN PHẨM</div>
+            </div>
+        </main>
+        <footer>
+            <div id="end">
+              <h2>CÔNG TY LIÊN DOANH TNHH KFC VIỆT NAM</h2>
+              <h3>Số 292 Bà Triệu, P. Lê Đại Hành, Q. Hai Bà Trưng, TP. Hà Nội.</h3>
+              <h3>Điện thoại: (028) 38489828</h3>
+              <h3>Email: lienhe@kfcvietnam.com.vn</h3>
+              <h3>Mã số thuế: 0100773885</h3>
+              <h3>Ngày cấp: 29/10/1998 - Nơi cấp: Cục Thuế Thành Phố Hà Nộ</h3>
+            </div>
+          </footer>
+    </div>
+
+    <!--  phần đăng nhập -->
+    <div id="users" class="hide">
+      <button id="dong_dang_nhap" class="">VỀ TRANG CHỦ</button>
+      <!-- đăng nhập -->
+      <div id="form_dang_nhap" class="">
+        <form action="">
+          <fieldset>
+            <legend>ĐĂNG NHẬP</legend>
+            <label for="username">Tên tài khoản:</label>
+            <input type="text" id="username" name="username" autocomplete="username">
+    
+            <label for="users_password">Mật khẩu:</label>
+            <input type="password" id="users_password" name="users_password" autocomplete="current-password">
+    
+            <button id="users_dang_nhap">ĐĂNG NHẬP</button>
+            <p>
+              Bạn chưa có tài khoản?
+              <button id="dk" >Đăng ký.</button>
+            </p>
+          </fieldset>
+        </form>
+      </div>
+    
+      <div id="form_dang_ky" class="hide">
+        <form action="">
+          <fieldset>
+            <legend>ĐĂNG KÝ</legend>
+            <label for="dang_ky_name">Full Name:</label>
+            <input type="text" id="dang_ky_name" name="dang_ky_name" />
+    
+            <label for="dang_ky_password">Password:</label>
+            <input type="password" id="dang_ky_password" name="dang_ky_password" autocomplete="current-password">
+    
+            <label for="dang_ky_email">Email:</label>
+            <input type="email" id="dang_ky_email" name="dang_ky_email" autocomplete="email">
+    
+            <button id="users_dang_ky">ĐĂNG KÝ</button>
+    
+            <p>
+              Bạn đã có tài khoản?
+              <button id="dn" onclick="showFormDangNhap()">Đăng nhập</button>
+            </p>
+          </fieldset>
+        </form>
+      </div>
+    </div>
+    <script src="../Javascript/index.js"></script>
+</body>
+</html>

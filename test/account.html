@@ -1,0 +1,151 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./Grid_system.css">
+    <link rel="stylesheet" href="./style.css">
+    <link rel="stylesheet" href="../Style/gio_hang.css">
+    <title id="name_website"></title>
+</head>
+<body>
+  <div class="grid wide app">
+    <div class="row nav__bars">
+      <div class="col l-3 c-6 name__shop">
+        <a  href="">QUÁN ĐỒ ĂN NHANH KONOHA</a>
+      </div>
+      <div class="col l-6 c-0 .tablet__none">
+        <div class="row search-bar">
+          <div class="col l-9">
+            <input type="text" name="search_text" placeholder="Nhập để tìm kiếm sản phẩm">
+          </div>
+          <div class="col l-3">
+            <button id="search_btn">Tìm Kiếm</button>
+          </div>
+        </div>
+      </div>
+      <div class="col l-3 c-6">
+        <div class="row nav__bars-right">
+          <div id="name_tai_khoan_dang_nhap" class="col l-4 c-0">name</div>
+          <div id="dang_xuat" class="col l-4 c-0">        
+            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512"><path d="M377.9 105.9L500.7 228.7c7.2 7.2 11.3 17.1 11.3 27.3s-4.1 20.1-11.3 27.3L377.9 406.1c-6.4 6.4-15 9.9-24 9.9c-18.7 0-33.9-15.2-33.9-33.9l0-62.1-128 0c-17.7 0-32-14.3-32-32l0-64c0-17.7 14.3-32 32-32l128 0 0-62.1c0-18.7 15.2-33.9 33.9-33.9c9 0 17.6 3.6 24 9.9zM160 96L96 96c-17.7 0-32 14.3-32 32l0 256c0 17.7 14.3 32 32 32l64 0c17.7 0 32 14.3 32 32s-14.3 32-32 32l-64 0c-53 0-96-43-96-96L0 128C0 75 43 32 96 32l64 0c17.7 0 32 14.3 32 32s-14.3 32-32 32z"/></svg>
+          </div>
+          <div id="thong_bao" class="col l-4 c-0">
+            <label for="check__bell" class="thong-bao">
+              <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512"><path d="M224 0c-17.7 0-32 14.3-32 32V49.9C119.5 61.4 64 124.2 64 200v33.4c0 45.4-15.5 89.5-43.8 124.9L5.3 377c-5.8 7.2-6.9 17.1-2.9 25.4S14.8 416 24 416H424c9.2 0 17.6-5.3 21.6-13.6s2.9-18.2-2.9-25.4l-14.9-18.6C399.5 322.9 384 278.8 384 233.4V200c0-75.8-55.5-138.6-128-150.1V32c0-17.7-14.3-32-32-32zm0 96h8c57.4 0 104 46.6 104 104v33.4c0 47.9 13.9 94.6 39.7 134.6H72.3C98.1 328 112 281.3 112 233.4V200c0-57.4 46.6-104 104-104h8zm64 352H224 160c0 17 6.7 33.3 18.7 45.3s28.3 18.7 45.3 18.7s33.3-6.7 45.3-18.7s18.7-28.3 18.7-45.3z"/></svg>
+            </label>
+            <input type="checkbox" hidden class="check__bell-class" id="check__bell">
+            <label for="check__bell" class="mute__all"></label>
+            <div class="tin_nhan_gop_y">
+              <ul id="tin_nhan_data">
+                <h2>THÔNG BÁO</h2>
+                <li class="item">
+                  <h3 class="name_thong_bao">Người gửi:aaaaaaaaaaaaaaaa ${data.ten_gop_y}</h3>
+                  <p class="noi_dung_thong_bao">Font Awesome is the internet's icon library and toolkit used by millions of designers, developers, and content creators.
+                    Made with  and  in Bentonville, Boston, Chicago, Grand Rapids, Joplin, Kansas City, Seattle, Tampa, and Vergennes.</p>
+                </li>
+                <li class="item">
+                  <h3 class="name_thong_bao">Người gửi:aaaaaaaaaaaaaaaa ${data.ten_gop_y}</h3>
+                  <p class="noi_dung_thong_bao">Font Awesome is the internet's icon library and toolkit used by millions of designers, developers, and content creators.
+                    Made with  and  in Bentonville, Boston, Chicago, Grand Rapids, Joplin, Kansas City, Seattle, Tampa, and Vergennes.</p>
+                </li>
+                <li class="item">
+                  <h3 class="name_thong_bao">Người gửi:aaaaaaaaaaaaaaaa ${data.ten_gop_y}</h3>
+                  <p class="noi_dung_thong_bao">Font Awesome is the internet's icon library and toolkit used by millions of designers, developers, and content creators.
+                    Made with  and  in Bentonville, Boston, Chicago, Grand Rapids, Joplin, Kansas City, Seattle, Tampa, and Vergennes.</p>
+                </li>
+                <li class="item">
+                  <h3 class="name_thong_bao">Người gửi:aaaaaaaaaaaaaaaa ${data.ten_gop_y}</h3>
+                  <p class="noi_dung_thong_bao">Font Awesome is the internet's icon library and toolkit used by millions of designers, developers, and content creators.
+                    Made with  and  in Bentonville, Boston, Chicago, Grand Rapids, Joplin, Kansas City, Seattle, Tampa, and Vergennes.</p>
+                </li>
+              </ul>
+            </div>
+          </div>
+          <div class="col l-0 c-6 tablet__menu">
+            <label for="check__menu-tablet" class="tablet__menu-icon">
+              <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512"><path d="M0 96C0 78.3 14.3 64 32 64H416c17.7 0 32 14.3 32 32s-14.3 32-32 32H32C14.3 128 0 113.7 0 96zM0 256c0-17.7 14.3-32 32-32H416c17.7 0 32 14.3 32 32s-14.3 32-32 32H32c-17.7 0-32-14.3-32-32zM448 416c0 17.7-14.3 32-32 32H32c-17.7 0-32-14.3-32-32s14.3-32 32-32H416c17.7 0 32 14.3 32 32z"/></svg>
+            </label>
+            <input type="checkbox" name="" hidden  class="check__menu-tablet--class" id="check__menu-tablet">
+            <div class="tablet__menu-items">
+              <label for="check__menu-tablet" class="tablet__menu-items--exit">             
+                <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 384 512"><!--! Font Awesome Pro 6.4.2 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license (Commercial License) Copyright 2023 Fonticons, Inc. --><path d="M342.6 150.6c12.5-12.5 12.5-32.8 0-45.3s-32.8-12.5-45.3 0L192 210.7 86.6 105.4c-12.5-12.5-32.8-12.5-45.3 0s-12.5 32.8 0 45.3L146.7 256 41.4 361.4c-12.5 12.5-12.5 32.8 0 45.3s32.8 12.5 45.3 0L192 301.3 297.4 406.6c12.5 12.5 32.8 12.5 45.3 0s12.5-32.8 0-45.3L237.3 256 342.6 150.6z"/></svg>
+              </label>
+              <ul>
+                <h3>MENU</h3>
+                <li>UU DAI</li>
+                <li>MON MOI</li>
+                <li>MON TRANG MIENG</li>
+                <li>DANG XUAT</li>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- content -->
+    <div class="row content">
+      <!-- <tablet -->
+      <div class="col l-12 c-0" id="form_gio_hang">
+        <div id="form_gio_hang_item">
+          <div class="left-side">
+            <ul id="gio_hang_data"></ul>
+          </div>
+          <div class="right-side">
+            <div class="handl_gio_hang">
+              <button id="tong_tien_button">Tổng tiền chưa thanh toán:</button>
+              <button type="number" id="total_gio_hang"></button>
+              <label for="tien_tra">Tiền trả:</label>
+              <input type="number" id="tien_tra" name="tien_tra">
+              <button id="tinh_tien">Thanh Toán</button>
+              <h3 id="chua_thanh_toan"></h3>
+              <h3 id="da_thanh_toan"></h3>
+            </div>
+          </div>
+        </div>
+      </div>
+      <!-- mobile -->
+      <div class="col l-0 c-12 m-12">
+        <div class="row">
+          <div class="col l-12 c-12 m-12">
+            <div class="left-side">
+              <ul id="gio_hang_data">
+                <li>
+                  <img src="" alt="">
+                  <h3>name</h3>
+                  <h3>gia</h3>
+                  <p>mo ta</p>
+                </li>
+                <li>
+                  <img src="" alt="">
+                  <h3>name</h3>
+                  <h3>gia</h3>
+                  <p>mo ta</p>
+                </li>
+                <li>
+                  <img src="" alt="">
+                  <h3>name</h3>
+                  <h3>gia</h3>
+                  <p>mo ta</p>
+                </li>
+              </ul>
+            </div>
+          </div>
+          <div class="col l-12 c-12 m-12">
+            <div class="handl_gio_hang">
+              <button id="tong_tien_button">Tổng tiền chưa thanh toán:</button>
+              <button type="number" id="total_gio_hang"></button>
+              <label for="tien_tra">Tiền trả:</label>
+              <input type="number" id="tien_tra" name="tien_tra">
+              <button id="tinh_tien">Thanh Toán</button>
+              <h3 id="chua_thanh_toan"></h3>
+              <h3 id="da_thanh_toan"></h3>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</body>
+</html>
